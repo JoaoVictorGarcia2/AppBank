@@ -1,2 +1,2 @@
-# João VIctor Moraes Vieira
-# João VIctor Garcia
+# João Victor Moraes Vieira
+# João Victor Garcia

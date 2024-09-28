@@ -43,11 +43,16 @@ class Dashboard extends StatelessWidget {
                   color: Colors.amber,
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: const Center(
-                  child: Text(
-                    "Transferências",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                  ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Icon(Icons.monetization_on, size: 40, color: Colors.green),
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Transferências",
+                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -66,11 +71,16 @@ class Dashboard extends StatelessWidget {
                   color: Colors.green,
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: const Center(
-                  child: Text(
-                    "Contatos",
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                  ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const Icon(Icons.person, size: 40, color: Colors.white),
+                    const SizedBox(height: 10),
+                    const Text(
+                      "Contatos",
+                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
+                    ),
+                  ],
                 ),
               ),
             ),

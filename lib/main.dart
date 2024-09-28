@@ -287,23 +287,38 @@ class FormularioContato extends StatelessWidget {
           children: [
             TextField(
               controller: _controllerNome,
-              decoration: const InputDecoration(labelText: "Nome"),
+              decoration: const InputDecoration(
+                labelText: "Nome",
+                hintText: "Ex: João Silva",
+              ),
             ),
             TextField(
               controller: _controllerEndereco,
-              decoration: const InputDecoration(labelText: "Endereço"),
+              decoration: const InputDecoration(
+                labelText: "Endereço",
+                hintText: "Ex: Rua A, 123",
+              ),
             ),
             TextField(
               controller: _controllerTelefone,
-              decoration: const InputDecoration(labelText: "Telefone"),
+              decoration: const InputDecoration(
+                labelText: "Telefone",
+                hintText: "Ex: (11) 91234-5678",
+              ),
             ),
             TextField(
               controller: _controllerEmail,
-              decoration: const InputDecoration(labelText: "E-mail"),
+              decoration: const InputDecoration(
+                labelText: "E-mail",
+                hintText: "Ex: joao@email.com",
+              ),
             ),
             TextField(
               controller: _controllerCpf,
-              decoration: const InputDecoration(labelText: "CPF"),
+              decoration: const InputDecoration(
+                labelText: "CPF",
+                hintText: "Ex: 123.456.789-00",
+              ),
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
